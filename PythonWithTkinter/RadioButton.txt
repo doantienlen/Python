@@ -1,0 +1,7 @@
++ Radiobuttons can contain text or images, and you can associate a Python function or method with each button. 
+  When the button is pressed, Tkinter automatically calls that function or method. 
++ syntax: 
+  ==> button = Radiobutton(master, text=”Name on Button”, variable = “shared variable”, value = “values of each button”, options = values, …)
+      shared variable = A Tkinter variable shared among all Radio buttons 
+      value = each radiobutton should have different value otherwise more than 1 radiobutton will get selected. 
+      
