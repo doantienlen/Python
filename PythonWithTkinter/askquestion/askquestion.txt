@@ -1,0 +1,13 @@
++ In Every Application, we need some Message to Display like “Do You Want To Close ” or showing any warning or Something information. 
+  For this Tkinter provide a library like messagebox. 
+1. showinfo() – To display some important information .
+2. showwarning() – To display some type of Warning.
+3. showerror() –To display some Error Message.
+4. askquestion() – To display a dialog box that asks with two options YES or NO.
+5. askokcancel() – To display a dialog box that asks with two options OK or CANCEL.
+6. askretrycancel() – To display a dialog box that asks with two options RETRY or CANCEL.
+7. askyesnocancel() – To display a dialog box that asks with three options YES or NO or CANCEL.
++ Syntax of the Message-Box Functions: messagebox.name_of_function(Title, Message, [, options]) 
++ Askquestion(), this function is used to questions to the user. 
++ Syntax: messagebox.askfuncion(Title, Message, [, options])
+
