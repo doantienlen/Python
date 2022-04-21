@@ -1,0 +1,8 @@
++ Compared to the grid manager, the pack manager is somewhat limited, but it's much easier to use in a few, but quite common situations. 
++ Syntax: widget.pack(pack_options)
++ Here is the list of possible options
+  - expand -> When set to true, widget expands to fill any space not otherwise used in widget's parent 
+  - fill   -> Determines whether widget fills any extra space allocated to it by the packer, or keep its own minimal dimensions. 
+              NONE (dfault), X (fill only horizontally), Y (fill only vertically), or BOTH (fill both horizontally and vertically) 
+  - side   -> Determines which side of the parent widget packs against: TOP (default), BOTTOM, LEFT or RIGHT. 
+  
